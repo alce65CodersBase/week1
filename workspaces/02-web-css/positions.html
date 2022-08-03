@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Positions</title>
+        <style>
+            article {
+                position: relative;
+            }
+            article p {
+                column-count: 2;
+                column-gap: 1rem;
+            }
+            article::before {
+                content: '❤️';
+            }
+            article::after {
+                content: '';
+                /* display: block; */
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-color: rgba(255, 228, 196, 0.9);
+            }
+            article:hover::after {
+                background-color: rgba(255, 228, 196, 0.2);
+            }
+
+            section {
+                position: relative;
+            }
+
+            div {
+                width: 10rem;
+                height: 10rem;
+                border: 1px solid;
+                margin: 1rem;
+                position: absolute;
+
+                background-color: rgba(165, 42, 42);
+                top: 0;
+                z-index: 1;
+            }
+            .vodka {
+                background-color: rgba(0, 0, 255, 0.5);
+                z-index: 2;
+                top: 1rem;
+                left: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Probando positions</h1>
+            <p>Y otros elementos de CSS</p>
+        </header>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quis
+                enim dolores, optio aspernatur hic voluptate distinctio
+                consequuntur sapiente modi unde possimus officiis impedit sequi
+                sit corporis quae dolorem? Beatae.
+            </p>
+        </article>
+        <section>
+            <div>A</div>
+            <div class="vodka">B</div>
+            <div>C</div>
+        </section>
+    </body>
+</html>
