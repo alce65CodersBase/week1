@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Holly Grail Layouts</title>
+        <style>
+            header,
+            main div,
+            aside,
+            footer {
+                border: 1px solid;
+                border-radius: 5px 5px;
+                min-height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+            }
+        </style>
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .content {
+                /* min-height: 75vh; */
+                flex-grow: 2;
+                display: flex;
+                gap: 1rem;
+            }
+            main {
+                display: flex;
+                gap: 1rem;
+                flex-grow: 6;
+            }
+            main div {
+                display: initial;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Holly Grid Layout</header>
+        <div class="content">
+            <main>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque vitae adipisci, id quis vel necessitatibus
+                        laborum minima iste deserunt tempora! Voluptatum sint,
+                        veniam inventore necessitatibus corporis harum deleniti
+                        cum laboriosam?
+                    </p>
+                </div>
+                <div contenteditable="true">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Earum, omnis. Neque nihil vero quae ratione sed
+                        quia, veniam at ad porro cum nam, provident non ea, in
+                        animi quaerat iure?
+                    </p>
+                    <p>
+                        Recusandae ea asperiores et, aliquam distinctio
+                        reiciendis inventore commodi maxime, ratione repellendus
+                        expedita voluptate, tempore doloremque. Iste quos quis
+                        quod alias? Illo quasi recusandae iste officiis.
+                        Voluptates tempore consectetur adipisci?
+                    </p>
+                </div>
+            </main>
+            <aside>Haz nuestro bootcamp</aside>
+        </div>
+        <footer>ISDI Coders</footer>
+    </body>
+</html>

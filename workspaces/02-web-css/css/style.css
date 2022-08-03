@@ -1,13 +1,22 @@
+:root {
+    --color-primary: bisque;
+    --color-secondary: maroon;
+}
+
 /* Selector de etiqueta  */
 
 h1 {
-    color: bisque;
+    color: var(--color-primary);
 }
 
 /* Selector de clase  
 [class="relevant"]*/
-.relevant {
-    color: brown;
+.relevant.relevant {
+    color: var(--color-secondary);
+}
+
+p.foo {
+    color: cyan;
 }
 
 .big {
