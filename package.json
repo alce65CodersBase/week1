@@ -1,0 +1,29 @@
+{
+    "name": "week01",
+    "version": "1.0.0",
+    "description": "Week01. Demos de Git / HTML / CSS",
+    "keywords": [
+        "Git",
+        "Github",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Web",
+        "Front"
+    ],
+    "author": "Alejandro Cerezo",
+    "license": "ISC",
+    "main": "index.js",
+    "type": "module",
+    "private": true,
+    "workspaces": [
+        "workspaces/01-git",
+        "workspaces/02-web"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "prettier": {
+        "singleQuote": true
+    }
+}
