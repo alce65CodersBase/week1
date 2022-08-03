@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Learning Web" />
+        <meta name="keywords" content="web, html, css, js" />
+        <title>HTML tags</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1 style="color:rgb(224, 225, 236)">HTML Tags</h1>
+                <h2>Ejemplos de las principales etiquetas</h2>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sectioning</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <dialog>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, deserunt deleniti possimus minima ab reiciendis dicta. Nulla quas corporis ad nostrum facere explicabo tempora? Quas omnis recusandae voluptates debitis voluptas!</dialog>
+            <section>
+                <header>
+                    <h2>Sectioning</h2>
+                </header>
+                <pre>
+                    4.3.2 The article element
+                    4.3.3 The section element
+                    4.3.4 The nav element
+                    4.3.5 The aside element
+                    4.3.6 The h1, h2, h3, h4, h5, and h6 elements
+                    4.3.7 The hgroup element
+                    4.3.8 The header element
+                    4.3.9 The footer element
+                    4.3.10 The address element            
+                </pre>
+                <footer>
+                    <address>W3C</address>
+                </footer>
+
+                <section>
+                    <h6>Detalles</h6>
+                    <section>
+                        <h6>Otros</h6>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <header>
+                    <h2>Grouping</h2>
+                </header>
+                <pre>
+                    4.4.1 The p element
+                    4.4.2 The hr element
+                    4.4.3 The pre element
+                    4.4.4 The blockquote element
+                    4.4.5 The ol element
+                    4.4.6 The ul element
+                    4.4.7 The menu element
+                    4.4.8 The li element
+                    4.4.9 The dl element
+                    4.4.10 The dt element
+                    4.4.11 The dd element
+                    4.4.12 The figure element
+                    4.4.13 The figcaption element
+                    4.4.14 The main element
+                    4.4.15 The div element
+                </pre>
+            </section>
+            <article>
+                <h2>Mi vida</h2>
+                <p>Sindicable - RSS - Independiente</p>
+            </article>
+        </main>
+        <aside>
+            <h2>Info Extra</h2>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/sVFocedf-iU"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </aside>
+        <form action="" method="get">
+            <div>
+                <label for="user">User</label>
+                <input
+                    minlength="3"
+                    type="text"
+                    name="user"
+                    id="user"
+                    placeholder="User name"
+                />
+            </div>
+            <div>
+                <label for="isOk">Estas deacuerdo ...</label>
+                <input type="checkbox" name="isOk" id="isOk" required />
+            </div>
+            <div>
+                <input type="radio" name="turno" id="" value="M"/>M
+                <input type="radio" name="turno" id="" value="T"/>T
+            <div>
+                <select name="curso" id="">
+                    <option value=""></option>
+                    <option value="A">Angular</option>
+                    <option value="R">React</option>
+                </select>
+            </div>
+            <button>Enviar</button>
+            <details>
+                <summary>Question 1</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ipsum pariatur, temporibus earum ullam sequi unde enim soluta minus incidunt laboriosam adipisci culpa quisquam magnam tenetur laudantium vitae vel repellendus?</p>
+            </details>
+
+        </form>
+        <footer>
+            <address>ISDI Coders</address>
+            <mis-cosas>Cosas</mis-cosas>
+            <mis-cosas>Más Cosas</mis-cosas>
+        </footer>
+    </body>
+</html>
