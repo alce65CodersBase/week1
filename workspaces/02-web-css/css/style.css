@@ -1,0 +1,41 @@
+:root {
+    --color-primary: bisque;
+    --color-secondary: maroon;
+}
+
+/* Selector de etiqueta  */
+
+h1 {
+    color: var(--color-primary);
+}
+
+/* Selector de clase  
+[class="relevant"]*/
+.relevant.relevant {
+    color: var(--color-secondary);
+}
+
+p.foo {
+    color: cyan;
+}
+
+.big {
+    font-size: 1.5rem;
+}
+
+.bg,
+.relevant {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Selector de iD (Mala práctica)  */
+/* [id="p1"] */
+#p1 {
+    color: blueviolet;
+}
+
+/* Selector Atributos*/
+[type='text'] {
+    color: blue;
+}
