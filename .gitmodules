@@ -1,3 +1,6 @@
 [submodule "workspaces/00-git"]
 	path = workspaces/00-git
-	url = https://github.com/alce65/01_git
+	url = https://github.com/alce65Coders-22-05/01_git
+[submodule "workspaces/03_sass"]
+	path = workspaces/03_sass
+	url = https://github.com/alce65Coders-22-05/02-sass
